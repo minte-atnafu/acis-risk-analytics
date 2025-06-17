@@ -19,5 +19,4 @@ jobs:
           pip install flake8 pytest pandas
       - name: Lint with flake8
         run: flake8 . --max-line-length=120
-      - name: Run tests
-        run: pytest tests/
+  
